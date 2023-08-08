@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/styles.css">
+    <title>CollectiTech Innovations</title>
+</head>
+
+<body>
+    <!------------------HEADER---------------------->
+    <header>
+        <nav>
+            <a href="index.html"><img src="img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>CollectiTech Innovations</h1>
+            <p>Turning Imagination into Collectible Innovation</p>
+            <a href="#" class="hero-btn" id="whatsapp-btn">Send WhatsApp</a>
+        </div>
+
+    </header>
+    <!------------------MAIN---------------------->
+    <main>
+        <!------------------SERVICES SECTION---------------------->
+        <section class="proyects">
+            <h2>Some of the projects that we can tailor-made for you</h2>
+            <p>We are a company committed to giving the best service and quality to our customers.</p>
+
+            <div class="row">
+                <div class="proyects-col">
+                    <h3>Lightsaber</h3>
+                    <audio id="saberSound" autoplay>
+                        <source src="assets/lightsaber.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="proyects-img" id="saber">
+                        <img src="img/lightsaber.png" alt="lightsaber">
+                    </div>
+                </div>
+                <div class="proyects-col">
+                    <h3>R2D2</h3>
+                    <audio id="r2d2Sound" autoplay>
+                        <source src="assets/r2d2.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="proyects-img" id="r2d2">
+                        <img src="img/r2d2.png" alt="R2D2">
+                    </div>
+                </div>
+                <div class="proyects-col">
+                    <h3>Wall-E</h3>
+                    <audio id="wallSound" autoplay>
+                        <source src="assets/wall-e.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="proyects-img" id="wall">
+                        <img src="img/wall-e.png" alt="WALL-E">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!------------------VIDEO---------------------->
+
+        <section class="video">
+            <video autoplay muted loop>
+                <source src="assets/3Ddesing.mp4" type="video/mp4">
+            </video>
+            <div class="video-content">
+                <h2>We are experts in 3D design and electronic design, contact us!</h2>
+            </div>
+        </section>
+        
+
+    </main>
+    <!------------------FOOTER---------------------->
+    <footer>
+        <h4>As long as you can imagine it, we can create it!!</h4>
+        <p>Create your own collectibles with us and explore a world of possibilities.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa-regular fa-heart"></i> by Alexis Mora</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
